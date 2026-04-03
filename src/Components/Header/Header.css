@@ -1,0 +1,12 @@
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(71, 185, 99);
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

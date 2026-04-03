@@ -1,0 +1,40 @@
+.root-main{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+/* 1. General Style: Shob link-er jonno */
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #333;
+    display: inline-block; /* Text boro hole jate alignment thik thake */
+    
+    /* Smooth Transition */
+    transition: all 0.3s ease-in-out; 
+}
+
+/* 2. Hover Effect: Active thakuk ba na thakuk, hover korle eta hobe */
+nav a:hover {
+    background-color: rgba(255, 99, 71, 0.2); /* Tomato color-er halka version */
+    color: tomato;                            /* Text color tomato hobe */
+    font-size: 1.1rem;                        /* Text ektu boro hobe */
+    border-radius: 5px;                       /* Halka round shape */
+    cursor: pointer;
+}
+
+/* 3. Active Style: Sudhu active link-er jonno */
+nav a.active {
+    border: 1px solid rgb(143, 71, 58);
+    background-color: tomato;
+    color: white;
+    font-size: 1.1rem; /* Active thakle o jate boro dekhay */
+}
+
+/* 4. Active Hover: Active button-er upor mouse nile ki hobe */
+nav a.active:hover {
+    background-color: #e65239; /* Active tomato theke ektu dark */
+    color: white;              /* Active obosthay text shada-i thakbe */
+}
