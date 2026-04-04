@@ -3,6 +3,7 @@ import User from '../User/User';
 import "./Users2.css"
 
 const Users2 = ({usersPromise}) => {
+    
     const users = use(usersPromise)
 
     
