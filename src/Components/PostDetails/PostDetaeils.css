@@ -1,0 +1,10 @@
+.postDetails{
+    padding: 10px;
+    margin: 10px;
+    border:2px solid rebeccapurple;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
