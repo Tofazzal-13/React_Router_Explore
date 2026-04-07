@@ -1,5 +1,5 @@
 .posts_border{
-    border: 2px solid rgb(238, 22, 130);
+    border: 2px solid rgb(99, 40, 70);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
